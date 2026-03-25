@@ -33,4 +33,4 @@ bash demo.sh
 Output: `demo_output.json` — contains `ai_agent` and `ton_mcp` simulated JSON outputs.
 
 Next steps
-- If this looks good, I can initialize a new GitHub repo and push these files (no history).
+
