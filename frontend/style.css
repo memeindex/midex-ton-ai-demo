@@ -1,0 +1,11 @@
+*{box-sizing:border-box;font-family:Inter,Arial,Helvetica,sans-serif}
+body{margin:0;display:flex;flex-direction:column;height:100vh}
+header{background:#0b1220;color:#fff;padding:12px 16px;display:flex;align-items:center;justify-content:space-between}
+.toolbar button{margin-left:8px;padding:6px 10px;border-radius:6px;border:none;background:#1f2937;color:#fff;cursor:pointer}
+main{display:flex;flex:1;gap:12px;padding:12px;background:#0f1724}
+#canvas-area{flex:1;position:relative;border-radius:8px;background:#071022;padding:8px;overflow:hidden}
+#nodes{position:absolute;inset:0}
+.node{position:absolute;background:#0ea5a6;color:#012;min-width:120px;padding:8px;border-radius:8px;cursor:grab;box-shadow:0 6px 18px rgba(2,6,23,0.7)}
+.node.dragging{opacity:0.85;cursor:grabbing}
+#connections{position:absolute;inset:0;width:100%;height:100%;pointer-events:none}
+#inspector{width:260px;background:#071226;border-radius:8px;padding:12px;color:#cbd5e1}

@@ -1,0 +1,11 @@
+flowchart TD
+  A[User / Operator] --> B[Canvas / Flow Builder]
+  B --> C[AI Agent (analysis + decision)]
+  C --> D[TON MCP (sign & submit) - simulated]
+  D --> E[TON On-chain Action]
+  C --> F[UI: logs / explanation]
+  B --> F
+
+  %% Notes
+  classDef note fill:#f9f,stroke:#333,stroke-width:1px;
+  F:::note
