@@ -80,9 +80,3 @@ TonAPI / TONcenter / oracles / external APIs, plus SSE / webhooks for real‑tim
 
 ## Security note
 Demo repository is sanitized. For production, keys and secrets must be stored in `Vault` and all sensitive operations require user confirmation.
-
----
-
-If you want, I can:
-- produce a one‑page GitHub README file ready to commit, or  
-- generate a concise 45‑sec English pitch based on this README. Which do you prefer?
